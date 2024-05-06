@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #001a35;
+    color: #fff;
+    z-index: 100;
+}
+
+/* Logo */
+#logo img {
+    display: block;
+    padding: 2px;
+    max-width: 9em;
+    height: auto;
+}
+
+/* Navigation */
+#nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+#nav ul li {
+    display: inline-block;
+    padding: 2.25em 2.25em; 
+}
+#nav ul li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger; 
+    color: rgba(101, 163, 214, 0.8);
+    text-decoration: none;
+    transition: color 0.35s ease-in-out;
+}
+#nav ul li a:hover {
+    color: #fff;
+}
+
+#storeImage {
+    width: 80%;
+    height: auto;
+}
+/* Banner */
+.bannerRow {
+    padding-top: 5em;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    text-align: center;
+}
+.bannerColumns {
+    width: 50%;
+    padding: 2em;
+    min-height: 1000px; /* Use min-height for responsiveness */
+}
+.bannerColumns h1 {
+    margin-top: 5em;
+}
+.bannerColumns p {
+    margin-top: 1em;
+    font-size: large;
+}
+.bannerColumns img {
+    margin-top: 8em;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    transition: 0.3s;
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.564);
+}
+.bannerColumns:nth-child(odd) {
+    color: rgb(0, 0, 0);
+    background: #4292de;
+}
+.bannerColumns:nth-child(even) {
+    color: rgb(255, 255, 255);
+    background: #001a35;
+}
+
+/*Divider*/
+#divider {
+    height: 30px;
+    width: 100%;
+    background: #ffae00;
+    box-shadow: 10px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+#divider ul{
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+#divider ul li {
+    display: inline-block; 
+    padding: 0 1.25em;
+}
+
+#divider ul li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger; 
+    color: rgba(2, 93, 168, 0.884);
+    text-decoration: none;
+    transition: color 0.35s ease-in-out;
+}
+#divider ul li a:hover {
+    color: #fff;
+}
+
+/*Map*/
+#map {
+    height: 400px;
+    width: 100%; 
+}
+
+#map iframe{
+    height: 400px;
+    width: 100%; 
+    border: 0;
+}
+
+/*reviews*/
+#reviews{
+    height: 150px;
+    width: 100%;
+    border: 1px solid #000000;
+    background: #4292de;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/*footer*/
+#footer {
+    color: #bc2014;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: #0f111667;
+}
