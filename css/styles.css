@@ -18,7 +18,7 @@ body {
 #logo img {
     display: block;
     padding: 2px;
-    max-width: 9em;
+    max-width: 12em;
     height: auto;
 }
 
@@ -35,11 +35,11 @@ body {
 }
 #nav ul li {
     display: inline-block;
-    padding: 2.25em 2.25em; 
+    padding: 2.5em 2.5em; 
 }
 #nav ul li a {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger; 
+    font-size: x-large; 
     color: rgba(101, 163, 214, 0.8);
     text-decoration: none;
     transition: color 0.35s ease-in-out;
@@ -83,7 +83,8 @@ body {
 }
 .bannerColumns:nth-child(odd) {
     color: rgb(0, 0, 0);
-    background: #4292de;
+    background-image: linear-gradient(to bottom right, red, rgb(0, 79, 248));
+    /* background: #ee3c30de; */
 }
 .bannerColumns:nth-child(even) {
     color: rgb(255, 255, 255);
@@ -133,10 +134,10 @@ body {
 
 /*reviews*/
 #reviews{
-    height: 150px;
+    height: 30em;
     width: 100%;
     border: 1px solid #000000;
-    background: #4292de;
+    background: #0084ff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
