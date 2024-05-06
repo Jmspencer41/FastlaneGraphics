@@ -35,7 +35,7 @@ body {
 }
 #nav ul li {
     display: inline-block;
-    padding: 2.5em 2.5em; 
+    padding: 2.85em 2.75em; 
 }
 #nav ul li a {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -149,4 +149,123 @@ body {
     display: inline-block;
     width: 100%;
     background-color: #0f111667;
+}
+
+
+/*shop page*/
+
+#normalBanner {
+    padding-top: 10em;
+    width: 100%;
+    height: 800px;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom right, red, rgb(0, 79, 248));
+}
+
+form {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+form legend {
+    font-size: larger;
+    font-weight: bold;
+    color: #0F1116;
+    text-decoration: underline;
+}
+label {
+    display: block;
+    margin: 8px;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.35s ease-in-out;
+    -webkit-transition: background-color 0.35s ease-in-out;
+    -o-transition: background-color 0.35s ease-in-out;
+    -ms-transition: background-color 0.35s ease-in-out;
+    transition: background-color 0.35s ease-in-out;
+    background: #312ecf;
+    border-radius: 6px;
+    border: 0;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 1em;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #FFF !important;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:hover {
+    background: #4a47e6;
+}
+
+input[type="submit"].alt,
+input[type="reset"].alt,
+input[type="button"].alt,
+.button.alt {
+    border: 1px solid #FFF;
+    color: #0f1116;
+}
+
+input[type="submit"].fit,
+input[type="reset"].fit,
+input[type="button"].fit,
+.button.fit {
+    width: 100%;
+}
+
+input[type="submit"].small,
+input[type="reset"].small,
+input[type="button"].small,
+.button.small {
+    font-size: 0.8em;
+}
+
+input[type="submit"].medium,
+input[type="reset"].medium,
+input[type="button"].medium,
+.button.medium {
+    padding: 0.80em 2em;
+    font-size: 1.6em;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="phone"],
+textarea {
+    background: rgb(230, 229, 229);
+    color: #444343;
+    border: none;
+    font-size: larger;
+    outline: 0;
+    padding: .5em;
+    margin: none;
+    text-decoration: none;
+    width: 80%;
+    border-radius: 6px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }

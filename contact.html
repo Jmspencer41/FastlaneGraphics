@@ -20,16 +20,28 @@
                 </ul>
             </nav>
         </div>
-        <div class="bannerRow">
-            <span class="bannerColumns">
-                <h1>This is the left side of the banner</h1>
-            </span>
-            <span class="bannerColumns">
-                <img src="images/download.jpg" alt="Banner Image" id="bannerImage">
-            </span>
-        </div>
-        <div id="main">
+        <div id="normalBanner">
+            <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+                <fieldset>
+                  <legend>Contact Information</legend>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
             
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                  
+                  <label for="phone">Phone Number:</label>
+                  <input type="phone" id="phone" name="phone" required>
+                </fieldset>
+            
+                <fieldset>
+                  <legend>Message</legend>
+                  <textarea name="Message" id="Message" rows="4" cols="40"></textarea>
+                </fieldset>
+            
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+              </form>
         </div>
         <div id="footer">
             <h4>Fastlane Graphics LLC</h4>
