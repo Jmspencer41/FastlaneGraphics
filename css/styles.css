@@ -134,23 +134,44 @@ body {
 
 /*reviews*/
 #reviews{
-    height: 30em;
+    height: 31em;
     width: 100%;
     border: 1px solid #000000;
-    background: #ff0000e4;
+    background-image: linear-gradient(to bottom right, rgb(0, 54, 170), #001a35);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 /*footer*/
 #footer {
     color: #bc2014;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(80, 74, 74, 0.548);
     text-align: center;
     display: inline-block;
     width: 100%;
-    background-color: #0f111667;
 }
-
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 15px;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
 
 /*shop & contact pages*/
 #normalBanner {
