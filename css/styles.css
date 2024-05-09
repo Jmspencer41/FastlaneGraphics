@@ -1,3 +1,4 @@
+/*styles.css*/
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: #001a35;
+    background: #292929;
     color: #fff;
     z-index: 100;
 }
@@ -84,12 +85,12 @@ body {
 }
 .bannerColumns:nth-child(odd) {
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(to bottom right, #001a35, rgb(0, 54, 170));
+    background-image: linear-gradient(to bottom right, #292929, rgb(0, 39, 124));
     /* background: #ee3c30de; */
 }
 .bannerColumns:nth-child(even) {
     color: rgb(255, 255, 255);
-    background: #001a35;
+    background: #292929;
 }
 
 /*Divider*/
@@ -184,7 +185,14 @@ body {
     color: rgb(255, 255, 255);
     background-image: linear-gradient(to bottom right, #001a35, rgb(0, 54, 170));
 }
-
+.linker {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 0.35s ease-in-out;
+}
+.linker:hover {
+    color: red;
+}
 form {
     font-size: large;
     text-align: center;
@@ -327,21 +335,18 @@ img {vertical-align: middle;}
 }
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #8b00007e;
   font-size: 15px;
-  padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 4px;
   width: 100%;
-  text-align: center;
 }
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
+  font-weight: bolder;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
 }
 /* The dots/bullets/indicators */
 .dot {
